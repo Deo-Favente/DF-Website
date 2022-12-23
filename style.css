@@ -41,7 +41,7 @@
 .nav li {
     list-style: none;
     margin-left: 25px;
-    font-weight: 400;
+    font-weight: 450;
 }
 
 .nav-button {
@@ -52,5 +52,5 @@
 .nav-button a {
     padding : 10px 20px;
     color: var(--bleu-marine);
-    font-weight: 500;
+    font-weight: 600;
 }
