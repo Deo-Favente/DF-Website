@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Mermaid';
+    src: local('Mermaid'), url('fonts/Mermaid1001.ttf');
+}
+
 :root {
     --bleu-noir: #00171F;
     --bleu-marine: #003459;
@@ -10,37 +15,50 @@
 * {
     margin: 0;
     padding: 0;
+    font: inherit;
 }
+
+img, video, svg, picture {
+    display: block;
+    max-width: 100%;
+}
+
+/* Barre de nav */
 
 .barre {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
     background-color: var(--bleu-marine);
     color: var(--blanc);
 }
 
-.barre a {
+.nav-item a, .nav-button a {
     color: var(--blanc);
-    font-family: Poppins;
+    font-family: 'Poppins';
+    font-size: 28px;
     text-decoration: none;
 }
 
 .logo {
-    font-size: 32px;
+    font-family: 'Poppins';
+    font-size: 64px;
     font-weight: 700;
-    margin-left: 25px;
+    margin-left: 5%
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 25px;
+    margin-right: 5%;
 }
 
 .nav li {
     list-style: none;
-    margin-left: 25px;
+    margin-left: 50px;
     font-weight: 450;
 }
 
@@ -53,4 +71,76 @@
     padding : 10px 20px;
     color: var(--bleu-marine);
     font-weight: 600;
+}
+
+.barre label {
+    display: none;
+}
+
+@media screen and (max-width: 1230px) {
+    .nav li{
+        font-size: 48px;
+        display: none;
+    }
+
+    .barre label {
+        display: block;
+        font-size: 60px;
+        margin: 0 5%
+
+    }
+}
+
+@media screen and (max-width : 1150px){
+    .hero img {
+        display: none;
+    }
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    background: url("images/bg.svg");
+    background-size: cover;
+}
+
+
+.hero h1, h2 {
+    font-family: 'Mermaid';
+    color: var(--bleu-noir);
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.hero-text span {
+    font-size: 36px;
+    white-space: nowrap;
+    float: right;
+    align-self: flex-end;   
+}
+
+.hero-text h2 {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+}
+
+.hero-text p {
+    font-family: Poppins;
+    color: var(--bleu-marine);
+    font-size: 14px;
+    font-weight: 400;
 }
