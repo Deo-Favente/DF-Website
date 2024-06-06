@@ -5,24 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DeoFavente - Website</title>
     <link rel="stylesheet" href="custom.css">
-  <body>
+  <body class="bg">
     <style>
+
+      @import url('/fonts/Mermaid1001.ttf');
+
       .nav-logo {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: bolder;
       }
 
+      .hero {
+        margin-top: 10%;
+      }
+
+      .name {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      .main-quote {
+        font-family: "Mermaid1001";
+        font-size: 2.5rem;
+        font-weight: 600;
+      }
+
+      .bg {
+        background-image: url('/images/bg.svg');
+        background-size: cover;
+      }
     </style>
     <header class="bg-primary">
       <div class="container">
         <nav>
           <ul class="nav justify-content-between align-items-center">
             <li><a href="#" class="nav-link nav-logo text-white">DF</a></li>
-            <li><a href="#" class="nav-link text-primary bg-white rounded">Contact</a></li>
+            <li><a href="#" class="nav-link btn bg-white">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="row hero justify-content-start flex-column">
+            <h1 class="main-quote">“L’<mark>expérience</mark>, voilà le <mark>maître</mark> en <mark>toutes choses.</mark>”</h1>
+            <p class="main-quote name">Julius Caesar</p>
+            <p> Étudiant, entrepreneur, développeur, créateur de valeur, je travaille sur tout ce qui fait sens pour moi. Dans une envie constante de découvrir et d’explorer, j’apprécie l’apprentissage par la pratique.</p>
+            </div>
+            <a href="#" class="btn btn-primary">Voir mes projets</a>
+            <a href="#" class="btn btn-white bg-white border-primary">Me contacter</a>
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <img src="/images/statuefinal.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
