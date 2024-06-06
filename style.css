@@ -1,0 +1,11 @@
+@import url('/fonts/Mermaid1001.ttf');
+
+.bg {
+    background-image: url('/images/bg.svg');
+    background-size: cover;
+}
+
+mark {
+    background-color: #B7E6F9;
+    border-radius: 0.2rem;
+}
