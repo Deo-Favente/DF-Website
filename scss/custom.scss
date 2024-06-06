@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+// Variable overrids first
+$primary: #003459;
+$font-family-sans-serif: Poppins !default;
+
+// Then import Bootstrap
+@import "../bootstrap/scss/bootstrap.scss";
