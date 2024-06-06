@@ -2,7 +2,9 @@
 
 // Variable overrids first
 $primary: #003459;
+$secondary: #00171F;
 $font-family-sans-serif: Poppins !default;
+$font-family-monospace: Poppins !default;
 
 // Then import Bootstrap
 @import "../bootstrap/scss/bootstrap.scss";

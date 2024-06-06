@@ -12,16 +12,11 @@
 
       .nav-logo {
         font-size: 1.5rem;
-        font-weight: bolder;
+        font-weight: 1000;
       }
 
       .hero {
         margin-top: 10%;
-      }
-
-      .name {
-        font-size: 1.5rem;
-        font-weight: 600;
       }
 
       .main-quote {
@@ -30,10 +25,23 @@
         font-weight: 600;
       }
 
+      .name {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+
+
       .bg {
         background-image: url('/images/bg.svg');
         background-size: cover;
       }
+
+      mark {
+        background-color: #B7E6F9;
+        padding: 0.2rem;
+        border-radius: 0.2rem;
+      }
+
     </style>
     <header class="bg-primary">
       <div class="container">
@@ -50,9 +58,9 @@
         <div class="row">
           <div class="col-md-6 col-sm-12">
             <div class="row hero justify-content-start flex-column">
-            <h1 class="main-quote">“L’<mark>expérience</mark>, voilà le <mark>maître</mark> en <mark>toutes choses.</mark>”</h1>
-            <p class="main-quote name">Julius Caesar</p>
-            <p> Étudiant, entrepreneur, développeur, créateur de valeur, je travaille sur tout ce qui fait sens pour moi. Dans une envie constante de découvrir et d’explorer, j’apprécie l’apprentissage par la pratique.</p>
+            <h1 class="main-quote text-primary">“L’<mark class="text-primary">expérience</mark>, voilà le <mark class="text-primary">maître</mark> en <mark class="text-primary">toutes choses.</mark>”</h1>
+            <p class="main-quote text-primary name">Julius Caesar</p>
+            <p class="h5"> Étudiant, entrepreneur, développeur, créateur de valeur, je travaille sur tout ce qui fait sens pour moi. Dans une envie constante de découvrir et d’explorer, j’apprécie l’apprentissage par la pratique.</p>
             </div>
             <a href="#" class="btn btn-primary">Voir mes projets</a>
             <a href="#" class="btn btn-white bg-white border-primary">Me contacter</a>
