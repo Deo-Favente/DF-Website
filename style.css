@@ -9,8 +9,8 @@
 mark {
     display: inline-block;
     background-color: #B7E6F9;
-    line-height: 0em;
-    padding-bottom: 0.5em;
+    line-height: 0.2em;
+    padding-bottom: 0.2em;
     padding-left: 0;
     padding-right: 0;
 }
@@ -50,5 +50,15 @@ font-weight: 500;
 }
 
 .project-card {
-    background-color: #000;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.project-card div {
+    width: 100%;
 }
