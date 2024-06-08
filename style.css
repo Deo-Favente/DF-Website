@@ -15,50 +15,37 @@ mark {
     padding-right: 0;
 }
 
-.quote-author {
+h1, h2, h3, h4, h5, span {
     font-family: "Abhaya Libre";
+}
+
+.fw-boldxx {
     font-weight: 800;
-    text-align: right;
-    font-style: italic;
-    display: block;
-    height: fit-content;
-    padding-right: 0px;
-    padding-left: 0px;
-    font-size: 30px;
-    float: right;
 }
 
-.nav-logo {
-    font-size: 2em;
-    font-weight: 700;
+.fs-0 {
+    font-size: 3rem;
 }
 
-.title {
-    font-family: "Abhaya Libre";
-    font-weight: 700;
-    font-size: 50px;
+.border-top-5 {
+    border-radius: 5px 5px 0 0;
 }
 
-.subtitle {
-    padding-top: 2%;
-    font-weight: 300;
-    font-size: 20px;
+.border-bottom-5 {
+    border-radius: 0 0 5px 5px;
 }
 
-.button {
-font-weight: 500;
+@media screen and (min-width: 1000px) {
+    .pull-up {
+        position: relative;
+        margin-top: -15%
+    }
 }
 
-.project-card {
-    height: 200px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    padding: 0;
-    border-radius: 10px;
-}
-
-.project-card div {
-    width: 100%;
+@media screen and (max-width: 280px) {
+    mark {
+        display: inline;
+        flex-wrap: nowrap;
+    }
+    
 }
