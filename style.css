@@ -8,7 +8,9 @@
 
 mark {
     display: inline-block;
-    background-color: #B7E6F9;
+    background-color: rgb(0, 168, 232, 0.2);
+    background-opacity: 0.2;
+    color: inherit;
     line-height: 0.2em;
     padding-bottom: 0.2em;
     padding-left: 0;
@@ -48,4 +50,13 @@ h1, h2, h3, h4, h5, span {
         flex-wrap: nowrap;
     }
     
+}
+
+.card {
+    border: 0px;
+    box-shadow: rgb(0, 126, 167, 0.2) 0px 4px 10px; 
+}
+
+.btn {
+    border-width: 3px;
 }
