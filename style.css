@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    --tertiary: #CFEEFB;
+    --shadow: rgb(0, 126, 167, 0.2);
+}
+
 .bg {
     background-image: url('/images/bg.svg');
+    background-attachment: no-repeat;
     background-size: cover;
 }
 
 mark {
     display: inline-block;
-    background-color: rgb(0, 168, 232, 0.2);
-    background-opacity: 0.2;
-    color: inherit;
+    background-color: var(--shadow);
     line-height: 0.2em;
     padding-bottom: 0.2em;
     padding-left: 0;
@@ -29,13 +33,6 @@ h1, h2, h3, h4, h5, span {
     font-size: 3rem;
 }
 
-.border-top-5 {
-    border-radius: 5px 5px 0 0;
-}
-
-.border-bottom-5 {
-    border-radius: 0 0 5px 5px;
-}
 
 @media screen and (min-width: 1000px) {
     .pull-up {
@@ -54,9 +51,17 @@ h1, h2, h3, h4, h5, span {
 
 .card {
     border: 0px;
-    box-shadow: rgb(0, 126, 167, 0.2) 0px 4px 10px; 
+    box-shadow: var(--shadow) 0px 4px 10px; 
 }
 
 .btn {
     border-width: 3px;
+}
+
+.bg-tertiary {
+    background-color: var(--tertiary);
+}
+
+.fs-7 {
+    font-size: 1.75rem;
 }
