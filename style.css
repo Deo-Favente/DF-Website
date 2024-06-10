@@ -6,6 +6,10 @@
     --shadow: rgb(0, 126, 167, 0.2);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .bg {
     background-image: url('/images/bg.svg');
     background-attachment: no-repeat;
