@@ -1,0 +1,146 @@
+<div class="slide">
+            <div class="my-3 slider-track d-flex align-items-center">
+              <!-- Première itération -->
+              <div class="card h-100 shadow-none me-3"
+                style="flex-basis: 0; flex-grow: 1;">
+                <div class="card-body bg-tertiary rounded d-flex flex-column">
+                  <p class="card-text ps-2 pe-2 pt-3 pb-4">Parfait, rien à dire
+                    de plus.</p>
+                  <div class="mt-auto">
+                    <ul class="list-inline mb-2">
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                    </ul>
+                    <h6 class="card-title">Antoine G.</h6>
+                    <p class="card-text">Créateur de StunLife</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card h-100 shadow-none me-3"
+                style="flex-basis: 0; flex-grow: 1;">
+                <div class="card-body bg-tertiary rounded d-flex flex-column">
+                  <p class="card-text ps-2 pe-2 pt-3 pb-4">Déo a su faire preuve
+                    de discipline et de professionnalisme, je recommande.</p>
+                  <div class="mt-auto">
+                    <ul class="list-inline mb-2">
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                    </ul>
+                    <h6 class="card-title">Hugo I.</h6>
+                    <p class="card-text">Modélisateur Indé.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card h-100 shadow-none me-3"
+                style="flex-basis: 0; flex-grow: 1;">
+                <div class="card-body bg-tertiary rounded d-flex flex-column">
+                  <p class="card-text ps-2 pe-2 pt-3 pb-4">Aucun problème, les
+                    délais ont été respectés. Très bien.</p>
+                  <div class="mt-auto">
+                    <ul class="list-inline mb-2">
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                    </ul>
+                    <h6 class="card-title">Dorian H.</h6>
+                    <p class="card-text">Créateur de Mayko</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card h-100 shadow-none me-3"
+                style="flex-basis: 0; flex-grow: 1;">
+                <div class="card-body bg-tertiary rounded d-flex flex-column">
+                  <p class="card-text ps-2 pe-2 pt-3 pb-4">Collaborateur
+                    sérieux, professionnel et de confiance. Un plaisir de
+                    travailler ensemble.</p>
+                  <div class="mt-auto">
+                    <ul class="list-inline mb-2">
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                    </ul>
+                    <h6 class="card-title">Faustin L.</h6>
+                    <p class="card-text">Développeur Indé.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card h-100 shadow-none me-3"
+                style="flex-basis: 0; flex-grow: 1;">
+                <div class="card-body bg-tertiary rounded d-flex flex-column">
+                  <p class="card-text ps-2 pe-2 pt-3 pb-4">Qualité présente et à
+                    l'écoute. Toujours prêt à répondre aux besoins.</p>
+                  <div class="mt-auto">
+                    <ul class="list-inline mb-2">
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                      <li class="list-inline-item m-0"><i
+                          class="bi bi-star-fill"></i></li>
+                    </ul>
+                    <h6 class="card-title">Melvyn R.</h6>
+                    <p class="card-text">Créateur de MyLife</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+.carousel::before,
+.carousel::after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.5) 0%
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.carousel::before {
+  left: 0;
+  top: 0;
+}
+
+.carousel::after {
+  right: 0;
+  top: 0;
+  transform: rotate(180deg);
+}
