@@ -10,3 +10,12 @@
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+*.txt
+*.zip
+
+custom.css.map
+boostrap/
+node_modules/
+package-lock.json
+package.json

@@ -36,13 +36,13 @@
       <div>
       </div>
   </section>
-  <div class="container bg-white p-5 mt-5 rounded-4 blue-shadow">
+  <div class="container bg-white p-5 mt-5 rounded-4 blue-shadow align-items-center">
     <section>
-      <div class="container">
-        <h1 class="fw-bold text-primary fs-1">
+      <div class="container align-items-center d-flex flex-column">
+        <h1 class="fw-bold text-primary fs-1 w-100">
           Description du projet
         </h1>
-        <p class="fs-5">
+        <p class="fs-5 w-100">
           WorkEmpire (anciennement E-shop) était une plateforme de mise en relation entre des développeurs indépendants
           et des clients.<br>
           A l'origine, le projet était un serveur Discord où moi et les 2 autres premiers fondateurs proposions des
@@ -78,10 +78,10 @@
           la
           reprise des études.<br>
         </p>
-        <h1 class="fw-bold text-primary fs-1 mt-5">
+        <h1 class="fw-bold text-primary fs-1 mt-3 w-100">
           Technologies utilisées
         </h1>
-        <ul class="fs-5">
+        <ul class="fs-5 w-100">
           <li> <strong>WordPress</strong> (site)</li>
           <li><strong>Python</strong> notamment Discord.py (bot)</li>
           <li><strong>Sqlite3</strong> (base de données)</li>
@@ -90,66 +90,74 @@
           <li><strong>Figma </strong>(design publicitaires et charte graphique)</li>
           <li><strong>Google Forms </strong>(formulaire de recrutement)</li>
         </ul>
+        <div class="container row d-flex flex-md-row flex-column mt-4 justify-content-center gap-3 gap-lg-5">
+          <a href="https://workempire.fr" class="btn btn-primary fw-medium px-5 py-3 col-12 col-lg-4"
+            target="_blank">Site
+            web</a>
+          <a href="https://github.com/E-Shop-FR/E-bot"
+            class="btn bg-white border-primary fw-medium px-5 py-3 col-12 col-lg-4" target="_blank">Code source
+            (Bot)</a>
+        </div>
+        <p class="fst-italic mt-4 text-center"> P.S. : Si un des liens ne marche pas, vous pouvez me contacter pour que je vous donne
+          les accès nécessaires.</p>
+
       </div>
-      <div class="container row d-flex flex-md-row flex-column mt-4 justify-content-center gap-3 gap-lg-5 mt-5">
-        <a href="https://workempire.fr" class="btn btn-primary fw-medium px-5 py-3 col-12 col-lg-4" target="_blank">Site web</a>
-        <a href="https://github.com/E-Shop-FR/E-bot" class="btn bg-white border-primary fw-medium px-5 py-3 col-12 col-lg-4" target="_blank">Code source (Bot)</a>
+    </section>
+    <div class="container mt-5">
+      <div class="row d-flex justify-content-center gap-3">
+        <div class="col-12 col-lg-3">
+          <img src="../images/projects/workempire/screen1.png" class="img-fluid rounded object-fit-cover h-100 border"
+            data-bs-toggle="modal" data-bs-target="#screen1" role="button" alt="Screen 1 de WorkEmpire">
+        </div>
+        <div class="col-12 col-lg-3">
+          <img src="../images/projects/workempire/screen2.png" class="img-fluid rounded object-fit-cover h-100 border"
+            data-bs-toggle="modal" data-bs-target="#screen2" role="button" alt="Screen 2 de WorkEmpire">
+        </div>
+        <div class="col-12 col-lg-3">
+          <img src="../images/projects/workempire/screen3.png" class="img-fluid rounded object-fit-cover h-100 border"
+            data-bs-toggle="modal" data-bs-target="#screen3" role="button" alt="Screen 3 de WorkEmpire">
+        </div>
       </div>
-      <div class="container mt-5">
-        <div class="row d-flex justify-content-center gap-3">
-          <div class="col-12 col-lg-3">
-            <img src="../images/projects/workempire/screen1.png" class="img-fluid rounded object-fit-cover h-100 border"
-              data-bs-toggle="modal" data-bs-target="#screen1" role="button" alt="Screen 1 de WorkEmpire">
+    </div>
+    <div class="modal fade" id="screen1" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl w-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            Discord de WorkEmpire, section d'annonces à la communauté.
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="col-12 col-lg-3">
-            <img src="../images/projects/workempire/screen2.png" class="img-fluid rounded object-fit-cover h-100 border"
-              data-bs-toggle="modal" data-bs-target="#screen2" role="button" alt="Screen 2 de WorkEmpire">
-          </div>
-          <div class="col-12 col-lg-3">
-            <img src="../images/projects/workempire/screen3.png" class="img-fluid rounded object-fit-cover h-100 border"
-              data-bs-toggle="modal" data-bs-target="#screen3" role="button" alt="Screen 3 de WorkEmpire">
+          <div class="modal-body">
+            <img src="../images/projects/workempire/screen1.png" class="img-fluid" alt="Screen 1 de WorkEmpire">
           </div>
         </div>
       </div>
-      <div class="modal fade" id="screen1" tabindex="-1"  aria-hidden="true">
-        <div class="modal-dialog modal-xl w-100">
-          <div class="modal-content">
-            <div class="modal-header">
-              Discord de WorkEmpire, section d'annonces à la communauté.
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <img src="../images/projects/workempire/screen1.png" class="img-fluid" alt="Screen 1 de WorkEmpire">
-            </div>
+    </div>
+    <div class="modal fade" id="screen2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl w-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            Un des articles du blog de WorkEmpire, rédigé par moi-même.
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/projects/workempire/screen2.png" class="img-fluid" alt="Screen 2 de WorkEmpire">
           </div>
         </div>
       </div>
-      <div class="modal fade" id="screen2" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-xl w-100">
-          <div class="modal-content">
-            <div class="modal-header">
-              Un des articles du blog de WorkEmpire, rédigé par moi-même.
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <img src="../images/projects/workempire/screen2.png" class="img-fluid" alt="Screen 2 de WorkEmpire">
-            </div>
+    </div>
+    <div class="modal fade" id="screen3" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl w-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            Formulaire de contact de WorkEmpire.
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/projects/workempire/screen3.png" class="img-fluid" alt="Screen 3 de WorkEmpire">
           </div>
         </div>
       </div>
-      <div class="modal fade" id="screen3" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-xl w-100">
-          <div class="modal-content">
-            <div class="modal-header">
-              Formulaire de contact de WorkEmpire.
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <img src="../images/projects/workempire/screen3.png" class="img-fluid" alt="Screen 3 de WorkEmpire">
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
     </section>
   </div>
   <section>
@@ -167,6 +175,9 @@
           </li>
           <li class="nav-item">
             <a href="/#contact" class="nav-link text-white fw-light">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="/mentions-legales.pdf" class="nav-link text-white fw-light">Mentions légales</a>
           </li>
         </ul>
       </div>

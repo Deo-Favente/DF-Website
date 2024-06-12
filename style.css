@@ -105,19 +105,19 @@ span {
 
 @media screen and (max-width: 992px) {
   .carousel-inner {
-    width: calc(333.33%);
+    width: calc(466.666%);
   }
 }
 
 @media screen and (max-width: 768px) {
   .carousel-inner {
-    width: calc(1000%);
+    width: calc(1400%);
     animation: scroll 30s linear infinite; /* Défilement de 10 secondes */
   }
 }
 
 @media screen and (min-width: 992px) {
   .carousel-inner {
-    width: calc(200%);
+    width: calc(280%);
   }
 }
